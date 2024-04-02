@@ -12,3 +12,6 @@ RUN javac main.java
 
 # Define the command to run the Java application
 CMD ["java", "HelloWorld"]
+
+# Expose port 3000
+EXPOSE 3000
